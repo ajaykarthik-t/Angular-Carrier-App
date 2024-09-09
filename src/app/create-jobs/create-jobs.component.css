@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background for the body */
+  margin: 0;
+  padding: 0;
+}
+
+/* Admin Dashboard Container */
+.admin-dashboard {
+  background-color: #003366; /* Dark blue background */
+  color: #ffffff; /* White text color */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.create-job-container {
+  background-color: #004080; /* Slightly lighter dark blue */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.create-job-container h1 {
+  margin: 0;
+}
+
+.create-job-container h2 {
+  margin-top: 0;
+}
+
+/* Logout Icon */
+.logout-icon {
+  float: right;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #00509e; /* Slightly lighter blue */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #0066cc; /* Blue for submit button */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Horizontal Rule */
+hr {
+  border: 0;
+  height: 1px;
+  background: #004080; /* Darker blue */
+  margin: 20px 0;
+}

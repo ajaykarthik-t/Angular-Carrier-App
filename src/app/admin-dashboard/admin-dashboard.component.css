@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Admin Dashboard Container */
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h1 {
+  color: #003366; /* Dark blue */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-container h2 {
+  color: #003366; /* Dark blue */
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Logout Icon */
+.logout-icon {
+  float: right;
+  font-size: 1.5rem;
+  color: #ff4c4c; /* Red for logout */
+  cursor: pointer;
+}
+
+.logout-icon:hover {
+  color: #cc0000; /* Darker red on hover */
+}
+
+/* Separator Line */
+hr {
+  border: 0;
+  border-top: 1px solid #e1e1e1;
+  margin: 20px 0;
+}
+
+/* Manage Jobs Box */
+.manage-jobs-box {
+  text-align: center;
+}
+
+.manage-jobs-box h3 {
+  color: #003366; /* Dark blue */
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.dashboard-button {
+  background-color: #003366; /* Dark blue */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #002244; /* Slightly darker blue */
+}

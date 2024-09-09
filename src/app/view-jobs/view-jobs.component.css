@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light grey background for the body */
+  margin: 0;
+  padding: 0;
+}
+
+/* Admin Dashboard Container */
+.admin-dashboard {
+  background-color: #003366; /* Dark blue background */
+  color: #ffffff; /* White text color */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dashboard-container {
+  background-color: #004080; /* Slightly lighter dark blue */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header */
+.header-section {
+  background-color: #003366;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: #002d72; /* Darker blue */
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  width: 100%;
+}
+
+.search-bar .search-icon {
+  color: #ffffff;
+  margin-left: -35px;
+}
+
+/* Job Profile Section */
+.job-profile {
+  background-color: #004080;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.job-profile h2 {
+  margin: 0;
+}
+
+.job-details {
+  background-color: #00509e; /* Slightly lighter blue */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.job-details h3 {
+  margin-top: 0;
+}
+
+.job-details a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.job-actions {
+  margin-top: 20px;
+}
+
+.job-actions button {
+  background-color: #0066cc; /* Blue for action buttons */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.job-actions button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Job List Container */
+.job-list-container {
+  background-color: #004080;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.job-list-container h3 {
+  margin-top: 0;
+}
+
+/* Job Cards */
+.job-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-card {
+  background-color: #00509e; /* Slightly lighter blue */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h4 {
+  margin: 0;
+}
+
+.job-card p {
+  margin: 10px 0;
+}
+
+.job-card a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Job Buttons */
+.job-buttons {
+  margin-top: 20px;
+}
+
+.job-buttons button {
+  background-color: #0066cc; /* Blue for job action buttons */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.job-buttons button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}

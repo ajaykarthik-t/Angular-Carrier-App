@@ -1,0 +1,19 @@
+<nav>
+    <div class="navbar">
+      <!-- Username display -->
+      <span class="username">Welcome, {{ username }}</span>
+  
+      <!-- Links: My Applications, Favorites, Logout -->
+      <ul class="nav-links">
+        <li><a href="/my-applications">My Applications</a></li>
+        <li><a href="/favourites">Favorites</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+  
+      <!-- Conditionally show search bar -->
+      <div *ngIf="showSearchBar" class="search-bar">
+        <input type="text" placeholder="Search for jobs by title, role, or keywords">
+      </div>
+    </div>
+  </nav>
+  

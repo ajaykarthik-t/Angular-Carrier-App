@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Section */
+.header-section {
+  background-color: #003366; /* Dark blue background */
+  color: #fff; /* White text */
+  padding: 15px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  max-width: 400px;
+}
+
+.username-display {
+  font-size: 1rem;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.job-profile {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.job-profile h2 {
+  color: #003366; /* Dark blue */
+}
+
+.job-details h3 {
+  margin-top: 0;
+  color: #003366; /* Dark blue */
+}
+
+.job-details p {
+  margin: 10px 0;
+}
+
+.job-details a {
+  color: #007bff; /* Bright blue */
+  text-decoration: none;
+}
+
+.job-details a:hover {
+  text-decoration: underline;
+}
+
+.job-actions {
+  margin-top: 20px;
+}
+
+.apply-btn, .add-to-fav-btn {
+  background-color: #003366; /* Dark blue */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.apply-btn:hover, .add-to-fav-btn:hover {
+  background-color: #002244; /* Slightly darker blue */
+}
+
+/* Footer */
+footer {
+  background-color: #003366; /* Dark blue background */
+  color: #fff; /* White text */
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}

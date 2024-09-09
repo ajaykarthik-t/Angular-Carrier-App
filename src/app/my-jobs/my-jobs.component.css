@@ -1,0 +1,105 @@
+.jobs-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-icon {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .user-icon i {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .tab-button.active {
+    background-color: #b3d4fc;
+  }
+  
+  .job-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .job-info {
+    width: 50%;
+  }
+  
+  .job-status {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .applied-button {
+    background-color: #b3d4fc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .status-details {
+    text-align: left;
+  }
+  
+  .status-selected {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-inreview {
+    color: #ff9900;
+    font-weight: bold;
+  }
+  
+  .result-pending {
+    color: red;
+    font-weight: bold;
+  }
+  

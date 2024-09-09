@@ -1,0 +1,45 @@
+
+  
+
+  
+  <!-- Search and Tabs Section -->
+  <div class="search-section">
+    <input type="text" placeholder="Search for jobs" class="search-bar">
+    <span class="username-display">{{ username }}</span>
+  </div>
+  
+  <!-- Job Tabs Section -->
+  <div class="tabs-section">
+    <button class="tab-button">Job alerts</button>
+    <button class="tab-button">My jobs</button>
+    <button class="tab-button active">Favourites</button>
+  </div>
+  
+  <!-- Main Content: Favorite Jobs List -->
+  <main>
+    <section class="favourites-list">
+      <h2>Favourites</h2>
+      <div class="job-cards-container">
+        <div class="job-card" *ngFor="let job of favouriteJobs">
+          <h3>{{ job.company }}</h3>
+          <p>Role: {{ job.role }}</p>
+          <p>Job experience: {{ job.experience }}</p>
+          <p>
+            Job description: {{ job.description }}
+            <a href="#">Read more</a>
+          </p>
+          <p>Salary: {{ job.salary || 'not disclosed' }}</p>
+          <div class="card-buttons">
+            <button class="apply-btn">Apply</button>
+            <button class="remove-btn" (click)="removeFromFavourites(job)">Remove from fav</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>Logged in as {{ username }}</p>
+  </footer>
+  
